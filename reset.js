@@ -1,4 +1,4 @@
-import { getAuth, sendPasswordResetEmail  } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
+import { sendPasswordResetEmail  } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
 import {auth} from "./config.js"
 
 
@@ -20,7 +20,7 @@ sendPasswordResetEmail(auth, email.value)
     
   })
   .catch((error) => {
-    const errorCode = error.code;
+    
     const errorMessage = error.message;
     console.log(errorMessage);
   });

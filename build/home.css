@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.button{
+    padding-top: 1.2%;
+    margin-right: 1rem;
+flex-wrap: wrap;
+}
+
+.bg{
+    background-color: #6b43ff;
+    
+}
+
+.input{
+    text-align: center;
+    
+    
+    
+
+    color: #1d1d1d;
+    font-size: 16px;
+    font-weight: 500;
+    width: 50%;
+    height: 46px;
+    letter-spacing: 0.03rem;
+    border: 1px solid #5222fd;
+    background: transparent;
+    outline: none;
+    border-radius: 8px;
+    text-indent: 20px;
+    margin-top: 6px;
+    transition: all 0.3s ease;
+}
+
+#ul{
+    
+background-color:#5222fd;
+color: white;
+margin-left: 20%;
+margin-right: 20%;
+border-radius: 10px;
+font-size: 200%;
+
+}
